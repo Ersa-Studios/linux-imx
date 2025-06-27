@@ -258,6 +258,7 @@
 		reset-gpios = <&gpio4 11 GPIO_ACTIVE_HIGH>;
 		touchscreen-size-x = <480>;
 		touchscreen-size-y = <480>;
+		wakeup-source;
 		status = "okay";
 	};
 
